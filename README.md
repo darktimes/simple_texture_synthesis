@@ -1,2 +1,2 @@
-# simple_texture_synthesis
-Simple texture synthesis based on works of Wei and Levoy.
+# Simple Texture Synthesis
+This is a common texture synthesis based works of Wey and Levoy.
