@@ -1,6 +1,11 @@
 #include <cstdlib>
 #include <cmath>
+//-------------------------------------------------------------------------
 #include "Utils.hpp"
+#include "Color.hpp"
+#include "Image.hpp"
+#include "Pixel.hpp"
+//-------------------------------------------------------------------------
 
 GLint wrap(GLint toWrap, const GLint& limit)
 {

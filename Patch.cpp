@@ -1,4 +1,8 @@
+#include "Color.hpp"
 #include "Patch.hpp"
+#include "Image.hpp"
+#include "Pixel.hpp"
+#include "Utils.hpp"
 
 Patch::Patch(const std::shared_ptr<Image>& image, const Pixel& p)
 {

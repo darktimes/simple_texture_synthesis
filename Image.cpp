@@ -2,9 +2,13 @@
 #include <string.h>
 #include <math.h>
 #include <stdio.h>
-#include "Utils.hpp"
+//--------------------------------------------------------------------------------
+#include "Image.hpp"
+#include "Color.hpp"
 #include "Patch.hpp"
-
+#include "Pixel.hpp"
+#include "Utils.hpp"
+//--------------------------------------------------------------------------------
 Image::Image(const Image& img)
 {
 	width = img.getWidth();

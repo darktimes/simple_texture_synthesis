@@ -1,14 +1,19 @@
 #ifndef UTILS_HPP
 #define UTILS_HPP
+//-------------------------------------------------------------------------
+class Pixel;
+class Image;
+class Color;
+//-------------------------------------------------------------------------
 #include <algorithm>
 #include <memory>
 #include <iostream>
 #include <GL/glew.h>
-#include "Image.hpp"
-#include "Pixel.hpp"
-
+//-------------------------------------------------------------------------
 #define _PI_  3.14159265359
 #define _E_  2.16395341373
+
+class Image;
 
 /* for gaussian approximaton */
 const GLint apxs[] {1, 4, 6, 4, 1};

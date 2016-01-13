@@ -1,12 +1,14 @@
 #ifndef IMAGE_HPP
 #define IMAGE_HPP
+//--------------------------------------------------------------------------------
+class Pixel;
+class Color;
+//--------------------------------------------------------------------------------
 #include <GL/glew.h>
 #include <algorithm>
 #include <memory>
 #include <cfloat>
-#include "Color.hpp"
-#include "Pixel.hpp"
- 
+//--------------------------------------------------------------------------------
 class Image
 	 : public std::enable_shared_from_this<Image>
 {
