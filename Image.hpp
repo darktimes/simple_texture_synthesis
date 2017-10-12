@@ -8,6 +8,7 @@ class Color;
 #include <algorithm>
 #include <memory>
 #include <cfloat>
+#include <random>
 //--------------------------------------------------------------------------------
 class Image
 	 : public std::enable_shared_from_this<Image>

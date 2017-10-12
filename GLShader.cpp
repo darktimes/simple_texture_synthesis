@@ -33,15 +33,15 @@ GLuint Shader::createShader(GLenum eShaderType, const GLchar *file_path)
 {
 	std::string shaderStr = readFile(file_path);
 	const GLchar* shaderCode = shaderStr.c_str();
-    GLint success;
-    GLchar infoLog[512];
-    
-    GLuint shader = glCreateShader(eShaderType);
+	GLint success;
+	GLchar infoLog[512];
+
+	GLuint shader = glCreateShader(eShaderType);
 	glShaderSource(shader, 1, &shaderCode, NULL);
 	glCompileShader(shader);
 	// Print compile errors if any
 	glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
-    if (!success)
+	if (!success)
 	{
 		glGetShaderInfoLog(shader, 512, NULL, infoLog);
 		std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << std::endl;

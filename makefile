@@ -1,6 +1,7 @@
 CC=g++
-CFLAGS=-c -Wall -std=c++11 
-LFLAGS=-lGL -lGLEW -lglfw3 -lpthread -lXrandr -lX11 -ldl -lXi -lXxf86vm -lXinerama -lrt -lm -lXcursor -lSOIL
+CFLAGS=-c -Wall -std=gnu++17 
+LFLAGS=-lglfw3 -lGL -lm -ldl -lXinerama -lXrandr -lXi -lXcursor -lX11 -lXxf86vm -lpthread -lGLEW -lrt -lXcursor -lSOIL
+
 all: synthesis
 
 synthesis: Window.o GLShader.o Image.o Utils.o Pixel.o Color.o Patch.o
