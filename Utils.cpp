@@ -1,5 +1,6 @@
 #include <cstdlib>
 #include <cmath>
+#include <vector>
 //-------------------------------------------------------------------------
 #include "Utils.hpp"
 #include "Color.hpp"
